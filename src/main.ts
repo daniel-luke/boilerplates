@@ -1,1 +1,1 @@
-console.log('Initial configuration');
+console.log('Initial configuration loaded..');
