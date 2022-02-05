@@ -1,1 +1,1 @@
-console.log("Initial configuration loaded..");
+import "./threejs/index";
