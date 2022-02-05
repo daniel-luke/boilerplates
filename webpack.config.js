@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    target: 'web',
     entry: './src/main.ts',
     module: {
         rules: [
@@ -18,4 +19,8 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'public'),
     },
+    devServer: {
+        hot: false,
+        liveReload: true,
+    }
 }
