@@ -19,3 +19,7 @@ npm run format - Formats all the files based on the prettier config
 
 npm run format-watch - Watches for file changes and formats the files accordingly
 ```
+
+## Netlify Intergration for CI/CD
+
+This boilerplate contains a ready baked netlify configuration for instant deployment.
